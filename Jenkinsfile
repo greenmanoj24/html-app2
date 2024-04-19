@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        REPO_URL = "https://github.com/prayag-sangode/html-app2.git"
-        BRANCH = "main"  // Replace with the desired branch
-        DOCKER_IMAGE_NAME = "prayags/html-app2"
+        REPO_URL = "https://github.com/greenmanoj24/html-app2.git"
+        BRANCH = "master"  // Replace with the desired branch
+        DOCKER_IMAGE_NAME = "greenmanoj24/html-app2"
     }
 
     stages {
