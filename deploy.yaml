@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: html-app-container
-          image: prayags/html-app2:latest  # Use your Docker image
+          image: greeenmanoj24/html-app2:latest  # Use your Docker image
           ports:
             - containerPort: 80
       imagePullSecrets:  # Specify the secret for image pull
